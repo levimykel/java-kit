@@ -678,6 +678,9 @@ public interface Fragment {
    * A generic Slice fragment
    */
   public interface Slice {
+
+    public String getSliceType();
+    public String getLabel();
   }
 
   /**
